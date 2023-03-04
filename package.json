@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "@komagata/filetype",
+  "version": "1.0.0",
+  "description": "Detect filetype from some byte string.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "filetype",
+    "magic"
+  ],
+  "author": "Masaki Komagata",
+  "license": "ISC",
+  "bin": {
+    "filetype-cli": "bin/cli.js"
+  },
+  "dependencies": {
+    "magic-bytes.js": "^1.0.14"
+  }
+}
